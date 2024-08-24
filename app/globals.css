@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: theme("colors.main-colr-3");
+  background: linear-gradient(135deg, #0b131a 10%, #87744f 30%, #0b131a 50%);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

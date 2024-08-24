@@ -1,0 +1,18 @@
+.navBarBtn {
+  position: relative;
+  display: inline !important;
+  background: linear-gradient(
+    to right,
+    theme("colors.main-colr-3"),
+    theme("colors.main-colr-3")
+  );
+  background-size: 100% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-color 0.5s ease-out, background-size 0.5s;
+}
+
+.navBarBtn:hover {
+  transition: background-color 0.7s ease-in, background-size 0.5s;
+  background-size: 0% 2px;
+}
