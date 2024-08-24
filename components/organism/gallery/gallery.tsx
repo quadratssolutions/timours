@@ -15,7 +15,7 @@ const Gallery = () => {
               objectFit="cover"
             />
           </div>
-          <div className="image-2 w-[100%] relative  h-[512px] mt-[4px]">
+          <div className="image-2 w-[100%] relative  h-[512px] mt-[16px]">
             <Image
               alt="img-2"
               src="/gallery/gallery2.jpeg"
@@ -36,7 +36,7 @@ const Gallery = () => {
               objectFit="cover"
             />
           </div>
-          <div className="image-2 w-[100%] relative  h-[512px] mt-[4px]">
+          <div className="image-2 w-[100%] relative  h-[512px] mt-[16px]">
             <Image
               alt="img-2"
               src="/gallery/gallery4.jpeg"
@@ -54,7 +54,7 @@ const Gallery = () => {
               objectFit="cover"
             />
           </div>
-          <div className="image-2 w-[100%] relative  h-[512px] mt-[4px]">
+          <div className="image-2 w-[100%] relative  h-[512px] mt-[16px]">
             <Image
               alt="img-2"
               src="/gallery/gallery6.jpeg"
