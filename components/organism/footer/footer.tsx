@@ -12,8 +12,7 @@ const Footer = () => {
           </p>
 
           <p className="text-[16px] font-[600]  text-main-colr-2 mt-5">
-            timoursbar@timour.com <br />
-            bookings@timour.com
+          timoursloungebar@gmail.com 
           </p>
         </div>
         <div>
@@ -21,8 +20,8 @@ const Footer = () => {
         </div>
         <div className="text-right">
           <p className="text-[16px] font-[600] text-main-colr-2">
-            (+67) 54 255 846 441 <br />
-            (+67) 54 525 846 781
+            {/* (+67) 54 255 846 441 <br />
+            (+67) 54 525 846 781 */}
           </p>
 
           <p className="text-[16px] font-[600]  text-main-colr-2 mt-5">
