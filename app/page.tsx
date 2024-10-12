@@ -17,6 +17,8 @@ export default function Home() {
   const [isModal, setIsModal] = useState(true);
   const galeryRef = useRef(null);
   const footerRef = useRef(null);
+  const menuRef = useRef(null);
+
   return (
     <>
       {isModal && (
@@ -41,7 +43,11 @@ export default function Home() {
             <Logo />
           </div>
           <div className="flex justify-center">
-            <Navbar footerRef={footerRef} galaryRef={galeryRef} />
+            <Navbar
+              footerRef={footerRef}
+              galaryRef={galeryRef}
+              menuRef={menuRef}
+            />
           </div>
         </div>
 
@@ -67,7 +73,7 @@ export default function Home() {
         </div>
 
         {/* menu area */}
-        <div id="menu">
+        <div id="menu" ref={menuRef}>
           <Menu />
         </div>
         {/* gallery area */}
