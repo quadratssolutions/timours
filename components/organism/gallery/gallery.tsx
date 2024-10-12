@@ -4,10 +4,13 @@ import React from "react";
 
 const Gallery = () => {
   return (
-    <div className="w-[1200px] mx-auto p-[30px] mt-[50px]">
-      <div className="grid grid-cols-3 gap-4">
+    <div className="lg:max-w-[1200px] max-w-[100vw] mx-auto p-[30px] mt-[50px]">
+      <div className="mx-auto w-fit mb-[20px] lg:hidden block">
+        <GalleryLogo />
+      </div>
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-4">
         <div>
-          <div className="image-2 w-[100%] relative h-[512px]">
+          <div className="image-2 w-[100%] relative  h-[512px]">
             <Image
               alt="img-2"
               src="/gallery/gallery1.jpeg"
@@ -15,7 +18,7 @@ const Gallery = () => {
               objectFit="cover"
             />
           </div>
-          <div className="image-2 w-[100%] relative  h-[512px] mt-[16px]">
+          <div className="image-2 w-[100%] relative   h-[512px] mt-[16px]">
             <Image
               alt="img-2"
               src="/gallery/gallery2.jpeg"
@@ -25,10 +28,10 @@ const Gallery = () => {
           </div>
         </div>
         <div>
-          <div className="mx-auto w-fit mb-[20px]">
+          <div className="mx-auto w-fit mb-[20px] hidden lg:block">
             <GalleryLogo />
           </div>
-          <div className="image-2 w-[100%] relative h-[512px]">
+          <div className="image-2 w-[100%] relative  h-[512px]">
             <Image
               alt="img-2"
               src="/gallery/gallery3.jpeg"
@@ -36,7 +39,7 @@ const Gallery = () => {
               objectFit="cover"
             />
           </div>
-          <div className="image-2 w-[100%] relative  h-[512px] mt-[16px]">
+          <div className="image-2 w-[100%] relative   h-[512px] mt-[16px]">
             <Image
               alt="img-2"
               src="/gallery/gallery4.jpeg"
@@ -45,8 +48,8 @@ const Gallery = () => {
             />
           </div>
         </div>
-        <div>
-          <div className="image-2 w-[100%] relative h-[512px]">
+        <div className="">
+          <div className="image-2 w-[100%] relative  h-[512px]">
             <Image
               alt="img-2"
               src="/gallery/gallery5.jpeg"
@@ -54,7 +57,7 @@ const Gallery = () => {
               objectFit="cover"
             />
           </div>
-          <div className="image-2 w-[100%] relative  h-[512px] mt-[16px]">
+          <div className="image-2 w-[100%] relative   h-[512px] mt-[16px]">
             <Image
               alt="img-2"
               src="/gallery/gallery6.jpeg"

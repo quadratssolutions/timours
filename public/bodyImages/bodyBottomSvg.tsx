@@ -3,7 +3,7 @@ import React from "react";
 function BodyBottomSvg() {
   return (
     <svg
-      width="877"
+      width="100%"
       height="121"
       viewBox="0 0 877 121"
       fill="none"

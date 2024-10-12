@@ -15,7 +15,7 @@ export default function Navbar({
     });
   };
   return (
-    <nav className="flex justify-center gap-[20px] mx-auto">
+    <nav className="flex justify-center gap-[20px] lg:mx-auto">
       <button
         className={`${styles.navBarBtn} bg-none items-center underline-offset-auto`}
       >

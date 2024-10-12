@@ -5,6 +5,9 @@
 body {
   color: theme("colors.main-colr-3");
   background: linear-gradient(135deg, #0b131a 10%, #87744f 30%, #0b131a 50%);
+  max-width: 100vw;
+  width: 100vw;
+  overflow-x: hidden !important;
 }
 
 @layer utilities {

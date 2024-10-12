@@ -9,7 +9,7 @@ const BodyBottomArea = () => {
         atmosphere and exceptional service, perfect for creating memorable
         moments with friends and family.
       </p>
-      <div className="mx-auto w-fit mt-10">
+      <div className="mx-auto w-fit mt-10 max-w-[100vw]">
         <BodyBottomSvg />
       </div>
     </div>
