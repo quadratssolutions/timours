@@ -78,9 +78,9 @@ export default function Home() {
         </div>
         {/* gallery area */}
 
-        <div id="gallery" ref={galeryRef}>
+        {/* <div id="gallery" ref={galeryRef}>
           <Gallery />
-        </div>
+        </div> */}
       </main>
 
       <div
