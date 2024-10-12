@@ -81,7 +81,6 @@ export default function Home() {
         <div id="gallery" ref={galeryRef}>
           <Gallery />
         </div>
-        <div id="contact"></div>
       </main>
 
       <div
