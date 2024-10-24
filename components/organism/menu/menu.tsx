@@ -1,5 +1,4 @@
 import MenuLogo from "@/components/molecules/logo/menu-logo/menu-logo";
-import Image from "next/image";
 import React from "react";
 
 const Menu = () => {
