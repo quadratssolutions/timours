@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "timours loungebar",
   description: " timours lounge bar",
+  icons: {
+    icon: "../public/favicon.svg",
+  },
 };
 
 export default function RootLayout({
