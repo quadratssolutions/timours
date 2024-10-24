@@ -11,7 +11,7 @@ const Footer = () => {
           <FooterLogo />
         </div>
       )}
-      <div className="grid lg:grid-cols-3 tablet:grid-cols-2 col-span-1 gap-4">
+      <div className="grid lg:grid-cols-3 lg:items-center tablet:grid-cols-2 col-span-1 gap-4">
         <div className="col-span-1">
           <p className="text-[16px] text-center font-[600] text-main-colr-2">
             5 Thompson avenue , Cowes , <br />

@@ -37,9 +37,9 @@ export default function Home() {
       <main className="lg:mx-auto lg:max-w-[1200px] mx-[36px] max-w-[100vw]">
         <div
           id="header"
-          className="mx-auto mt-[50px] mb-[100px] md:flex items-center gap-10 justify-between"
+          className="mx-auto mt-[50px] mb-[100px] lg:flex items-center gap-10 justify-between"
         >
-          <div className="md:block flex justify-center md:mb-0 mb-5">
+          <div className="lg:block flex justify-center lg:mb-0 mb-5">
             <Logo />
           </div>
           <div className="flex justify-center">
@@ -58,12 +58,12 @@ export default function Home() {
         <div id="body-content w-full bg-[linear-gradient(180deg,rgba(51,51,51,0.5)_0%,rgba(22,46,74,0.8)_102.17%)]">
           <div
             id="area-1"
-            className="flex gap-4  bg-[#0B131A] p-[20px] bg-opacity-79"
+            className="lg:flex block gap-4 bg-[#0B131A] p-[20px] bg-opacity-79"
           >
-            <div id="left-area" className="w-[50%]">
+            <div id="left-area" className="w-[100%] lg:w-[50%] hidden lg:block">
               <LeftSideImageArea />
             </div>
-            <div id="right-area" className="w-[50%]">
+            <div id="right-area" className="w-[100%] lg:w-[50%]">
               <RightSideArea />
             </div>
           </div>
@@ -78,9 +78,9 @@ export default function Home() {
         </div>
         {/* gallery area */}
 
-        {/* <div id="gallery" ref={galeryRef}>
+        <div id="gallery" ref={galeryRef}>
           <Gallery />
-        </div> */}
+        </div>
       </main>
 
       <div

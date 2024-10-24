@@ -1,11 +1,18 @@
 import React from "react";
+import LeftSideImageArea from "../left-side-image-area/left-side-image-area";
 
 const RightSideArea = () => {
   return (
     <div>
-      <h1 className="w-fit font-[900] text-[36px] text-left text-main-colr-1">
+      <h1 className="w-[100%] font-[900] text-[36px] text-main-colr-1 text-center lg:text-left">
         Our Story
       </h1>
+      <div
+        id="left-area"
+        className="w-[100%] lg:w-[50%] lg:hidden block my-[20px]"
+      >
+        <LeftSideImageArea />
+      </div>
       <p className="w-fit font-[400] text-[16px] mt-[5px] text-left">
         Timour’s Lounge Bar started with a vision to blend great flavors with
         memorable moments. Our crafted cocktails and globally inspired dishes
