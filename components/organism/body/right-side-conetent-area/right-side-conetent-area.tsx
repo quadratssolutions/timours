@@ -14,16 +14,19 @@ const RightSideArea = () => {
         <LeftSideImageArea />
       </div>
       <p className="w-fit font-[400] text-[16px] mt-[5px] text-left">
-        Timour’s Lounge Bar started with a vision to blend great flavors with
-        memorable moments. Our crafted cocktails and globally inspired dishes
-        aim to delight every guest. What began as an idea evolved into a spot
-        where friends and newcomers gather for good food and conversation. Every
-        dish and drink is crafted to help guests relax and create lasting
-        memories. Our passion for detail makes Timour’s special, with each
-        aspect designed to enhance your experience. At Timour’s Lounge Bar, it’s
-        not just about the drinks or food; it’s about their perfect combination.
-        Whether celebrating, relaxing, or enjoying the atmosphere, you’ll always
-        feel at home.
+        <span className="w-fit font-[600] text-[18px] mt-[5px] text-left">
+          Welcome to Timour’s Lounge Bar
+        </span>{" "}
+        <br />
+        <br /> Located in the heart of Cowes, Timour’s Lounge Bar offers a
+        perfect coastal escape with beautiful views and a relaxed atmosphere.
+        Enjoy a diverse menu of delicious food, from fresh seafood to gourmet
+        burgers, and a selection of exotic cocktails and mocktails, like the
+        refreshing "Beach Breeze" and "Sunset Spritzer." As evening falls, the
+        lounge comes alive with live music and entertainment, featuring local
+        artists and a vibrant atmosphere. With stylish decor and a welcoming
+        vibe, it’s the ideal spot to relax, celebrate, and savor coastal
+        life—just steps from the beach.
       </p>
     </div>
   );

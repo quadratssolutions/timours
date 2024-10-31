@@ -22,7 +22,7 @@ const Logo = () => {
         <rect width="214" height="73" fill="url(#pattern0_51_443)" />
       </mask>
       <g mask="url(#mask0_51_443)">
-        <rect x="-7" y="-13" width="221" height="94" fill="white" />
+        <rect x="-7" y="-13" width="221" height="94" fill="#F7BE37" />
       </g>
       <defs>
         <pattern

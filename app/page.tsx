@@ -14,7 +14,7 @@ import Image from "next/image";
 import { useRef, useState } from "react";
 
 export default function Home() {
-  const [isModal, setIsModal] = useState(true);
+  const [isModal, setIsModal] = useState(false);
   const galeryRef = useRef(null);
   const footerRef = useRef(null);
   const menuRef = useRef(null);

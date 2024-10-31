@@ -4,6 +4,11 @@ import React from "react";
 
 const Footer = () => {
   const isDesktop = useMediaQuery("(min-width: 904px)");
+
+  const handleCallClick = () => {
+    const telUri = `tel:(+61) 03 5926 6834`;
+    window.location.href = telUri;
+  };
   return (
     <div className="lg:w-[800px] lg:mx-auto mx-[36px]">
       {!isDesktop && (
@@ -28,15 +33,29 @@ const Footer = () => {
         )}
         <div className="col-span-1">
           <div className="lg:text-right text-center">
-            <p className="text-[16px] font-[600] text-main-colr-2">
-              (+67) 54 255 846 441 <br />
-              (+67) 54 525 846 781
+            <p className="text-[16px] font-[600] lg:text-right text-center text-main-colr-2 mt-5">
+              {" "}
+              Tel :{" "}
+              <button
+                className="text-[16px] font-[600] text-main-colr-2"
+                onClick={() => handleCallClick()}
+              >
+                (+61) 03 5926 6834 <br />
+              </button>
             </p>
 
             <p className="text-[16px] font-[600]  text-main-colr-2 mt-5">
-              Open : 04:00 pm
+              Sunday,Monday,Tuesday,Wednesday,Thursday <br />
+              Open : 11:00 am
               <br />
-              Close : 02:00 am
+              Close : 9:00 pm
+            </p>
+
+            <p className="text-[16px] font-[600]  text-main-colr-2 mt-5">
+              Friday & Saturday <br />
+              Open : 11:00 am
+              <br />
+              Close : 9:00 pm
             </p>
           </div>
         </div>

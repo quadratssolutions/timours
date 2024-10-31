@@ -17,7 +17,7 @@ const Gallery = () => {
           <div className="image-2 w-[100%] relative  h-[512px]">
             <Image
               alt="img-2"
-              src="/gallery/gallery1.jpeg"
+              src="/gallery/gallery1.jpg"
               layout="fill"
               objectFit="cover"
             />
@@ -25,7 +25,7 @@ const Gallery = () => {
           <div className="image-2 w-[100%] relative   h-[512px] mt-[16px]">
             <Image
               alt="img-2"
-              src="/gallery/gallery2.jpeg"
+              src="/gallery/gallery2.JPG"
               layout="fill"
               objectFit="cover"
             />
@@ -40,7 +40,7 @@ const Gallery = () => {
           <div className="image-2 w-[100%] relative  h-[512px]">
             <Image
               alt="img-2"
-              src="/gallery/gallery3.jpeg"
+              src="/gallery/gallery3.JPG"
               layout="fill"
               objectFit="cover"
             />
@@ -48,7 +48,7 @@ const Gallery = () => {
           <div className="image-2 w-[100%] relative   h-[512px] mt-[16px]">
             <Image
               alt="img-2"
-              src="/gallery/gallery4.jpeg"
+              src="/gallery/gallery4.jpg"
               layout="fill"
               objectFit="cover"
             />
@@ -58,7 +58,7 @@ const Gallery = () => {
           <div className="image-2 w-[100%] relative  h-[512px]">
             <Image
               alt="img-2"
-              src="/gallery/gallery5.jpeg"
+              src="/gallery/gallery5.JPG"
               layout="fill"
               objectFit="cover"
             />
@@ -66,7 +66,7 @@ const Gallery = () => {
           <div className="image-2 w-[100%] relative   h-[512px] mt-[16px]">
             <Image
               alt="img-2"
-              src="/gallery/gallery6.jpeg"
+              src="/gallery/gallery6.jpg"
               layout="fill"
               objectFit="cover"
             />
