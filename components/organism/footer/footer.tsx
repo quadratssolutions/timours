@@ -55,7 +55,7 @@ const Footer = () => {
               Friday & Saturday <br />
               Open : 11:00 am
               <br />
-              Close : 9:00 pm
+              Close : 11:00 pm
             </p>
           </div>
         </div>
