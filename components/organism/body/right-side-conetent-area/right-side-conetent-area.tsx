@@ -15,17 +15,17 @@ const RightSideArea = () => {
       </div>
       <p className="w-fit font-[400] text-[16px] mt-[5px] text-left">
         <span className="w-fit font-[600] text-[18px] mt-[5px] text-left">
-          Welcome to Timour’s Lounge Bar
-        </span>{" "}
+          Welcome to Timour&quot;s Lounge Bar
+        </span>
         <br />
-        <br /> Located in the heart of Cowes, Timour’s Lounge Bar offers a
+        <br /> Located in the heart of Cowes, Timour&quot;s Lounge Bar offers a
         perfect coastal escape with beautiful views and a relaxed atmosphere.
         Enjoy a diverse menu of delicious food, from fresh seafood to gourmet
         burgers, and a selection of exotic cocktails and mocktails, like the
         refreshing "Beach Breeze" and "Sunset Spritzer." As evening falls, the
         lounge comes alive with live music and entertainment, featuring local
         artists and a vibrant atmosphere. With stylish decor and a welcoming
-        vibe, it’s the ideal spot to relax, celebrate, and savor coastal
+        vibe, it&quot;s the ideal spot to relax, celebrate, and savor coastal
         life—just steps from the beach.
       </p>
     </div>
