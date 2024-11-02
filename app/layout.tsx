@@ -19,6 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta property="og:title" content="Timour's Lounge Bar" />
       <body className={inter.className}>{children}</body>
     </html>
   );
