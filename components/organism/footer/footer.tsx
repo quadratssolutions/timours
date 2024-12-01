@@ -45,7 +45,7 @@ const Footer = () => {
             </p>
 
             <p className="text-[16px] font-[600]  text-main-colr-2 mt-5">
-              Sunday,Monday,Tuesday,Wednesday,Thursday <br />
+              Sunday, Monday, Tuesday, Wednesday, Thursday <br />
               Open : 11:00 am
               <br />
               Close : 9:00 pm
