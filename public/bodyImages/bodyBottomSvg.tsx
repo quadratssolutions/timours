@@ -9,19 +9,20 @@ function BodyBottomSvg() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
+      style={{ maxWidth: "100vw" }}
     >
       <mask
         id="mask0_94_17"
-        style={{ maskType: "alpha" }}
+        style={{ maskType: "alpha", width: "auto !important" }}
         maskUnits="userSpaceOnUse"
         x="0"
         y="0"
-        width="877"
+        width="full"
         height="102"
       >
         <mask
           id="mask1_94_17"
-          style={{ maskType: "alpha" }}
+          style={{ maskType: "alpha", width: "auto !important" }}
           maskUnits="userSpaceOnUse"
           x="22"
           y="0"
