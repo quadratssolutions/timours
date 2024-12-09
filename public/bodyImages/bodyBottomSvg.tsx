@@ -9,7 +9,7 @@ function BodyBottomSvg() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      style={{ maxWidth: "100vw" }}
+      style={{ maxWidth: "calc(100vw - 72px)" }}
     >
       <mask
         id="mask0_94_17"
