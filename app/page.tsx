@@ -37,7 +37,7 @@ export default function Home() {
       <main className="lg:mx-auto lg:max-w-[1200px] mx-[36px] max-w-[100vw]">
         <div
           id="header"
-          className="mx-auto mt-[50px] mb-[100px] lg:flex items-center gap-10 justify-between"
+          className="mx-auto mt-[50px] mb-[100px] lg:flex items-center gap-10 justify-between  md:px-[72px]"
         >
           <div className="lg:block flex justify-center lg:mb-0 mb-5">
             <Logo />
