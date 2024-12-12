@@ -17,7 +17,7 @@ const config: Config = {
       tablet: "768px",
       // => @media (min-width: 768px) { ... }
 
-      lg: "904px",
+      lg: "1024px",
       // => @media (min-width: 904px) { ... }
 
       smallDesktop: "1024px",
