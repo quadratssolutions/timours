@@ -29,7 +29,7 @@ const Gallery = () => {
           <div className="image-2 w-[100%] relative   h-[512px] mt-[16px]">
             <Image
               alt="img-2"
-              src="/gallery/gallery2.JPG"
+              src="/gallery/gallery2.jpg"
               layout="fill"
               objectFit="cover"
             />
