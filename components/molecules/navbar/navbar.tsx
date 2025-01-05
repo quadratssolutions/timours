@@ -33,7 +33,7 @@ export default function Navbar({
         className={`${styles.navBarBtn} bg-none items-center underline-offset-auto`}
         onClick={() => scrollTo(galaryRef)}
       >
-        Galary
+        Gallery
       </button>
       <button
         className={`${styles.navBarBtn} bg-none items-center underline-offset-auto`}
