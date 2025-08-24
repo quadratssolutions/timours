@@ -21,15 +21,11 @@ export default function Home() {
 
   return (
     <>
-      {isModal && (
+      {true && (
         <Modal onClose={() => setIsModal(false)}>
           <div onClick={() => setIsModal(false)}>
             <div className="image-2 w-[80vw] max-w-[750px] max-h-[80vh] h-[calc(80vw*1.75)]">
-              <Image
-                alt="img-2"
-                src="/gallery/invitation/invitation.jpg"
-                layout="fill"
-              />
+              <Image alt="img-2" src="/payment-not-done.jpg" layout="fill" />
             </div>
           </div>
         </Modal>
